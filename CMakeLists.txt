@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.30)
 
+set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
+
 project(Pong VERSION 1.0)
 
 # kutuphanelerin dosya yolu
